@@ -95,33 +95,80 @@
         <section class="px-5 py-5">
             <h2 class="text-center pb-0">Artículos</h2>
                 <div class="row g-3">
+
+                    <!--VIDEO MP4 + AUDIO MP3-->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100">
-
-                            <video id="medio" width="700" height="350" controls>
+                            
+                            <video id="vid_mp3" width="720" height="400">
                                 <source src="videos/Big_Buck_Bunny_360_10s_1MB.mp4" type="video/mp4">
                                 Tu navegador no soporta vídeo
                             </video>
 
+                            <nav>
+                                <input type="button" id="reiniciar" value="reiniciar">
+                                <input type="button" id="retrasar" value="&laquo;">
+                                <input type="button" id="play" value="&#9658;">
+                                <input type="button" id="adelantar" value="&raquo;">
+                                <input type="button" id="silenciar" value="silenciar">
+                                <label>Volumen</label>
+                                <input type="button" id="menosVolumen" value="-">
+                                <input type="button" id="masVolumen" value="+">
+                            </nav>
+
+                            <audio id="au_mp3" controls>
+                                <source src="audio/audioknap-music-free-458044.mp3" type='audio/mp3'>
+                            </audio>
+
                         </div>
                     </div>
+
+                    <!--VIDEO OGV + AUDIO OGG-->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100">
                             
-                            <video id="medio" width="700" height="350" controls>
+                            <video id="vid_ogv" width="720" height="400">
                                 <source src="videos/Big_Buck_Bunny_360_10s_1MB.ogv" type="video/ogv">
                                 Tu navegador no soporta vídeo
                             </video>
 
+                            <nav>
+                                <input type="button" id="reiniciar" value="reiniciar">
+                                <input type="button" id="retrasar" value="&laquo;">
+                                <input type="button" id="play" value="&#9658;">
+                                <input type="button" id="adelantar" value="&raquo;">
+                                <input type="button" id="silenciar" value="silenciar">
+                                <label>Volumen</label>
+                                <input type="button" id="menosVolumen" value="-">
+                                <input type="button" id="masVolumen" value="+">
+                            </nav>
+
+                            <audio id="au_ogg" controls>
+                                <source src="audio/audioknap-music-free-458044.ogg" type='audio/ogg' >
+                            </audio>
+
                         </div>
                     </div>
+
+                    <!--VIDEO WEBM-->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100">
 
-                            <video id="medio" width="700" height="350" controls>
+                            <video id="vid_webm" width="720" height="400">
                                 <source src="videos/Big_Buck_Bunny_360_10s_1MB.webm" type="video/webm">
                                 Tu navegador no soporta vídeo
                             </video>
+                            
+                            <nav>
+                                <input type="button" id="reiniciar" value="reiniciar">
+                                <input type="button" id="retrasar" value="&laquo;">
+                                <input type="button" id="play" value="&#9658;">
+                                <input type="button" id="adelantar" value="&raquo;">
+                                <input type="button" id="silenciar" value="silenciar">
+                                <label>Volumen</label>
+                                <input type="button" id="menosVolumen" value="-">
+                                <input type="button" id="masVolumen" value="+">
+                            </nav>
 
                         </div>
                     </div>
